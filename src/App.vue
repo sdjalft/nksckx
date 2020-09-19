@@ -15,7 +15,7 @@ export default {
   },
   data: function () {
     return {
-      url: './assets/blog-bg.jpg'
+      url: './assets/blogBg.jpg'
     }
   }
 }
@@ -44,7 +44,7 @@ export default {
 }
 .bgimage {
   height: 420px;
-  background: url('./assets/blog-bg.jpg') no-repeat;
+  background: url('./assets/blogBg.jpg') no-repeat;
   background-size:100% 420px;
 }
 </style>
