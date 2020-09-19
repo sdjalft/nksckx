@@ -1,17 +1,23 @@
 <template>
   <div id="app">
+    <div class="texiao">
+      <div class="snow" v-for="(item) in 300" :key="item"></div>
+    </div>
     <main-tab></main-tab>
     <div class="bgimage"></div>
     <router-view/>
+    <footman></footman>
   </div>
 </template>
 
 <script>
 import mainTab from './components/MainTab.vue'
+import footman from './components/Footman.vue'
 export default {
   name: 'app',
   components: {
-    mainTab
+    mainTab,
+    footman
   },
   data: function () {
     return {

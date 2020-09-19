@@ -1,11 +1,28 @@
 <!--每个科目的卡片-->
 <template>
-  <el-card shadow="hover" class="card">
-    <span class="innerText">
-      <slot></slot>
-    </span>
-  </el-card>
+  <div @click="click">
+    <el-card shadow="hover" class="card">
+      <span class="innerText">
+        {{ name }}
+      </span>
+    </el-card>
+  </div>
 </template>
+
+<script>
+export default {
+  props: {
+    name: {
+      type: String
+    }
+  },
+  methods: {
+    click () {
+      this.$emit('click', this.name)
+    }
+  }
+}
+</script>
 
 <style>
 .card {
@@ -13,6 +30,7 @@
   background-size: 100% 100%;
   height: 120px;
   position: relative;
+  z-index: -1;
 }
 .innerText {
   font-size: 20px;

@@ -2,8 +2,8 @@
   <div>
     <div class="home">
       <el-row :gutter="20" v-for="(index) in subjects" :key="index" class="row">
-        <el-col :span="6" v-for="(value) in index" :key="value">
-          <card>{{value}}</card>
+        <el-col :span="6" v-for="(value, key) in index" :key="key">
+          <card @click="jump" :name="value">{{value}}</card>
         </el-col>
       </el-row>
     </div>
@@ -32,6 +32,11 @@ export default {
   created () {
     for (let cc = 0; cc < this.sub.length; cc += 4) {
       this.subjects.push(this.sub.slice(cc, cc + 4))
+    }
+  },
+  methods: {
+    jump (name) {
+      this.$router.push({ name: name })
     }
   }
 }

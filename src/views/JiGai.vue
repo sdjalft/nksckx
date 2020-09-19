@@ -1,7 +1,13 @@
+<!--计算机概论-->
 <template>
   <div class="ziHome">
-    <p class="ziTitle">双创中心学习资料网</p>
-    <p>Hello，亲，欢迎来到软件学院双创中心的学习资料网，我们衷心地希望你能找到需要的学习资料。期末考试加油！</p>
+    <p class="ziTitle">计算机概论资料汇总</p>
+    <p></p>
+    <div v-for="(key) in ref" :key='key.key' class="lianjie">
+      <a :href="key.value">
+        {{key.key}}
+      </a>
+    </div>
     <p class="ziIdea">意见</p>
     <p>如果您对双创中心的这个网站有什么宝贵的意见，或者对我们可以举办的活动有什么想法的话，
       请将您的提议发送至下面的邮箱，
@@ -10,12 +16,31 @@
     <div>
       <span style="font-weight: 600;">邮箱：</span>
       <span>nksckx@163.com</span>
-      <br>
-      <span style="font-weight: 600;">网站维护者QQ：</span>
-      <span>2259671965</span>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: function () {
+    return {
+      ref: [{
+        key: '中文课件.rar',
+        value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E4%B8%AD%E6%96%87%E8%AF%BE%E4%BB%B6.rar'
+      },
+      {
+        key: '英文课件.rar',
+        value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E8%8B%B1%E6%96%87%E8%AF%BE%E4%BB%B6.rar'
+      },
+      {
+        key: '计概知识点+试题.zip',
+        value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E8%AE%A1%E6%A6%82%E7%9F%A5%E8%AF%86%E7%82%B9+%E8%AF%95%E9%A2%98.zip'
+      }
+      ]
+    }
+  }
+}
+</script>
 
 <style>
 .ziHome {
@@ -38,6 +63,13 @@
   font-size: 40px;
   text-align: center;
   font-weight: 600;
+}
+.lianjie {
+  margin-top: 10px;
+}
+.lianjie a {
+  color: red;
+  text-decoration: none;
 }
 .ziIdea {
   font-size: 40px;
