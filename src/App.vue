@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <div class="texiao">
-      <div class="snow" v-for="(item) in 300" :key="item"></div>
-    </div>
     <main-tab></main-tab>
     <div class="bgimage"></div>
     <router-view/>
     <footman></footman>
+    <div class="texiao">
+      <div class="snow" v-for="(item) in 200" :key="item" wmode="transparent"></div>
+    </div>
   </div>
 </template>
 
 <script>
-import mainTab from './components/MainTab.vue'
 import footman from './components/Footman.vue'
+import mainTab from './components/MainTab.vue'
 export default {
   name: 'app',
   components: {
@@ -35,22 +35,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+a {
+  z-index: 11;
 }
 .bgimage {
   height: 420px;
   background: url('./assets/blogBg.jpg') no-repeat;
   background-size:100% 420px;
+  z-index: 5;
 }
 </style>

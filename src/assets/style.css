@@ -1,7 +1,10 @@
 .texiao {
   width: 100vw;
-  position: fixed;
   overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
 }
 
 .snow {
@@ -10,7 +13,7 @@
     background: #e91da5;
     border-radius: 50%;
     transition: all .4s;
-    z-index: 100;
+    z-index: 1;
 }
 
 .snow:nth-child(1) {

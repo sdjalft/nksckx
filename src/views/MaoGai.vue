@@ -4,7 +4,7 @@
     <p class="ziTitle">毛泽东思想理论体系概论资料汇总</p>
     <p></p>
     <div v-for="(key) in ref" :key='key.key' class="lianjie">
-      <a :href="key.value">
+      <a :href="key.value" style="z-index: 100;">
         {{key.key}}
       </a>
     </div>
