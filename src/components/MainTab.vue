@@ -130,4 +130,8 @@ export default {
 .el-menu.el-menu--horizontal {
     border-bottom: 0px !important;
 }
+.el-menu-item.is-active {
+    border-bottom: 0px !important;
+    color: #303133;
+}
 </style>
