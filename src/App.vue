@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <main-tab></main-tab>
+    <div class="bgimage"></div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import mainTab from './components/MainTab.vue'
+export default {
+  name: 'app',
+  components: {
+    mainTab
+  },
+  data: function () {
+    return {
+      url: './assets/blog-bg.jpg'
+    }
+  }
+}
+</script>
 
 <style>
 #app {
@@ -28,5 +41,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.bgimage {
+  height: 420px;
+  background: url('./assets/blog-bg.jpg') no-repeat;
+  background-size:100% 420px;
 }
 </style>
