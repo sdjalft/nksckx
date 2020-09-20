@@ -42,7 +42,7 @@ a {
 }
 .bgimage {
   height: 420px;
-  background: url('./assets/blogBg.jpg') no-repeat;
+  background: url(https://gitee.com/nksckx/images/raw/master/blogBg.jpg) no-repeat;
   background-size:100% 420px;
   z-index: 5;
 }

@@ -26,7 +26,7 @@ export default {
 
 <style>
 .card {
-  background: url(../assets/cardBg.jpg) no-repeat;
+  background: url(https://gitee.com/nksckx/images/raw/master/cardBg.jpg) no-repeat;
   background-size: 100% 100%;
   height: 120px;
   position: relative;
