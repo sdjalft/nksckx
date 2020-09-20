@@ -79,7 +79,7 @@ export default {
   flex-direction: row;
   height: 80px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 2;

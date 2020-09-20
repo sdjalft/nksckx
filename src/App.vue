@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
+  <div class="app">
     <main-tab></main-tab>
     <div class="bgimage"></div>
+    <el-backtop>
+    </el-backtop>
     <router-view/>
     <footman></footman>
     <div class="texiao">
@@ -28,7 +30,7 @@ export default {
 </script>
 
 <style>
-#app {
+.app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
