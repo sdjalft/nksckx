@@ -1,11 +1,10 @@
 <!--导航菜单栏-->
 <template>
   <div class="mainTab">
-    <el-image
+    <img
       class="logo"
-      src="https://gitee.com/nksckx/images/raw/master/logo.png"
-      @click="toHome">
-    </el-image>
+      src="../assets/logo.png"
+      @click="toHome"/>
     <a class="title" @click="toHome">南开软件双创中心</a>
     <el-menu mode="horizontal"
       style="display: flex; height: 80px !important; background-color: rgba(0,0,0,0);"
