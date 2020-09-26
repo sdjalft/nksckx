@@ -27,6 +27,22 @@ export default {
       ref: [{
         key: '计算机组成原理课件.zip',
         value: 'https://gitee.com/nksckx/jisuanjizuchengyuanli/raw/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E8%AF%BE%E4%BB%B6.zip'
+      },
+      {
+        key: '计算机组成原理第二版-唐朔飞.pdf',
+        value: 'https://gitee.com/nksckx/jisuanjizuchengyuanli/raw/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%AC%AC%E4%BA%8C%E7%89%88-%E5%94%90%E6%9C%94%E9%A3%9E.pdf'
+      },
+      {
+        key: '期末复习大ppt',
+        value: 'https://gitee.com/nksckx/jisuanjizuchengyuanli/raw/master/%E6%9C%9F%E6%9C%AB.pptx'
+      },
+      {
+        key: '组成原理_测验.doc',
+        value: 'https://gitee.com/nksckx/jisuanjizuchengyuanli/raw/master/%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86_%E6%B5%8B%E9%AA%8C.doc'
+      },
+      {
+        key: ' 组成原理_测验答案.doc',
+        value: 'https://gitee.com/nksckx/jisuanjizuchengyuanli/raw/master/%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86_%E6%B5%8B%E9%AA%8C%E7%AD%94%E6%A1%88.doc'
       }
       ]
     }

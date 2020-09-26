@@ -35,6 +35,14 @@ export default {
       {
         key: '计概知识点+试题.zip',
         value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E8%AE%A1%E6%A6%82%E7%9F%A5%E8%AF%86%E7%82%B9+%E8%AF%95%E9%A2%98.zip'
+      },
+      {
+        key: '摘要.zip',
+        value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E6%91%98%E8%A6%81.zip'
+      },
+      {
+        key: '精华.zip',
+        value: 'https://gitee.com/nksckx/jisuanjigailun/raw/master/%E7%B2%BE%E5%8D%8E.zip'
       }
       ]
     }

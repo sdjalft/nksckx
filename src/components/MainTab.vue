@@ -44,12 +44,15 @@
         <el-menu-item index="/shujujiegou">数据结构</el-menu-item>
         <el-menu-item index="/lisan">离散数学</el-menu-item>
         <el-menu-item index="/xiandai">线性代数</el-menu-item>
+        <el-menu-item index="/gailv">概率论与数理统计</el-menu-item>
         <el-menu-item index="/jigai">计算机概论</el-menu-item>
         <el-menu-item index="/jizu">计算机组成原理</el-menu-item>
+        <el-menu-item index="/suanfa">算法导论</el-menu-item>
       </el-submenu>
       <el-submenu index="3">
         <span slot="title" class="submenuText">专业选修课</span>
         <el-menu-item index="/qt">高级语言编程实训</el-menu-item>
+        <el-menu-item index="/ml">机器学习导论</el-menu-item>
       </el-submenu>
       <el-menu-item index="/about">
         <span class="submenuText">关于</span>

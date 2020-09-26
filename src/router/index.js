@@ -26,6 +26,9 @@ import JiGai from '../views/JiGai.vue'
 import JiZu from '../views/JiZu.vue'
 import QT from '../views/QT.vue'
 import About from '../views/About.vue'
+import SuanFa from '../views/SuanFa.vue'
+import ML from '../views/ML.vue'
+import GaiLv from '../views/GaiLv.vue'
 
 Vue.use(VueRouter)
 
@@ -159,6 +162,21 @@ const routes = [
     path: '/about',
     name: '关于',
     component: About
+  },
+  {
+    path: '/suanfa',
+    name: '算法导论',
+    component: SuanFa
+  },
+  {
+    path: '/ml',
+    name: '机器学习导论',
+    component: ML
+  },
+  {
+    path: '/gailv',
+    name: '概率论与数理统计',
+    component: GaiLv
   }
 ]
 

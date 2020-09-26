@@ -63,6 +63,18 @@ export default {
       {
         key: '往年考题.zip',
         value: 'https://gitee.com/nksckx/cyuyan/raw/master/%E5%BE%80%E5%B9%B4%E8%80%83%E9%A2%98.zip'
+      },
+      {
+        key: '100经典C算法.doc',
+        value: 'https://gitee.com/nksckx/cyuyan/raw/master/100%E7%BB%8F%E5%85%B8C%E7%AE%97%E6%B3%95.doc'
+      },
+      {
+        key: '上机考试及答案.zip',
+        value: 'https://gitee.com/nksckx/cyuyan/raw/master/%E4%B8%8A%E6%9C%BA%E8%80%83%E8%AF%95%E5%8F%8A%E7%AD%94%E6%A1%88.zip'
+      },
+      {
+        key: '一些复杂的上机程序.zip',
+        value: 'https://gitee.com/nksckx/cyuyan/raw/master/%E4%B8%80%E4%BA%9B%E5%A4%8D%E6%9D%82%E7%9A%84%E4%B8%8A%E6%9C%BA%E7%A8%8B%E5%BA%8F.zip'
       }
       ]
     }

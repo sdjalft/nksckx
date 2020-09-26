@@ -43,6 +43,10 @@ export default {
       {
         key: '书后题答案.rar',
         value: 'https://gitee.com/nksckx/gaodengshuxue/raw/master/%E4%B9%A6%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.rar'
+      },
+      {
+        key: '空间几何图形.zip',
+        value: 'https://gitee.com/nksckx/gaodengshuxue/raw/master/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E5%9B%BE%E5%BD%A2.zip'
       }
       ]
     }
