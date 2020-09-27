@@ -31,6 +31,18 @@ export default {
       {
         key: '课程重点.pdf',
         value: 'https://gitee.com/nksckx/suanfa/raw/master/%E8%AF%BE%E7%A8%8B%E9%87%8D%E7%82%B9.pdf'
+      },
+      {
+        key: '算法导论有笔记——by 张金毅.pdf',
+        value: 'https://gitee.com/nksckx/suanfa/raw/master/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA%E6%9C%89%E7%AC%94%E8%AE%B0.pdf'
+      },
+      {
+        key: '算法设计英文版.pdf',
+        value: 'https://gitee.com/nksckx/suanfa/raw/master/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E8%8B%B1%E6%96%87%E7%89%88.pdf'
+      },
+      {
+        key: '课件.zip',
+        value: 'https://gitee.com/nksckx/suanfa/raw/master/%E8%AF%BE%E4%BB%B6.zip'
       }
       ]
     }

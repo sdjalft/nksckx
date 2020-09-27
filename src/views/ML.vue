@@ -60,6 +60,18 @@ export default {
         {
           key: '课件.zip',
           value: 'https://gitee.com/nksckx/machinelearning/raw/master/%E8%AF%BE%E4%BB%B6.zip'
+        },
+        {
+          key: 'MATLAB揭秘（自学MATLAB很好的教材）.pdf',
+          value: 'https://gitee.com/nksckx/machinelearning/raw/master/MATLAB%E6%8F%AD%E7%A7%98%EF%BC%88%E8%87%AA%E5%AD%A6MATLAB%E5%BE%88%E5%A5%BD%E7%9A%84%E6%95%99%E6%9D%90%EF%BC%89.pdf'
+        },
+        {
+          key: '福利79：统计学习方法第2版课件.rar',
+          value: 'https://gitee.com/nksckx/machinelearning/raw/master/%E7%A6%8F%E5%88%A979%EF%BC%9A%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E7%AC%AC2%E7%89%88%E8%AF%BE%E4%BB%B6.rar'
+        },
+        {
+          key: '数值最优化算法与理论（李董辉+董小娇+万中）.pdf',
+          value: 'https://gitee.com/nksckx/machinelearning/raw/master/%E6%95%B0%E5%80%BC%E6%9C%80%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95%E4%B8%8E%E7%90%86%E8%AE%BA%EF%BC%88%E6%9D%8E%E8%91%A3%E8%BE%89+%E8%91%A3%E5%B0%8F%E5%A8%87+%E4%B8%87%E4%B8%AD%EF%BC%89.pdf'
         }
       ]
     }

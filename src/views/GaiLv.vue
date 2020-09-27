@@ -35,6 +35,10 @@ export default {
       {
         key: '概率论与数理统计.pdf',
         value: 'https://gitee.com/nksckx/gailvlun/raw/master/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1.pdf'
+      },
+      {
+        key: '概率论与数理统计-习题全解指南(浙大第四版).pdf',
+        value: 'https://gitee.com/nksckx/gailvlun/raw/master/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-%E4%B9%A0%E9%A2%98%E5%85%A8%E8%A7%A3%E6%8C%87%E5%8D%97(%E6%B5%99%E5%A4%A7%E7%AC%AC%E5%9B%9B%E7%89%88).pdf'
       }
       ]
     }
