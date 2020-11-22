@@ -29,27 +29,27 @@ export default {
     return {
       ref: [{
         key: '上帝掷骰子吗——量子物理史话.pdf',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/2018%E4%B9%A0%E9%A2%98%E8%AF%BE.PPT'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E4%B8%8A%E5%B8%9D%E6%8E%B7%E9%AA%B0%E5%AD%90%E5%90%97%E2%80%94%E2%80%94%E9%87%8F%E5%AD%90%E7%89%A9%E7%90%86%E5%8F%B2%E8%AF%9D.pdf'
       },
       {
         key: '99-07往年试卷.zip',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/2018%E5%A4%8D%E4%B9%A0%E8%8C%83%E5%9B%B4.PPT'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A94%2099-07%E5%BE%80%E5%B9%B4%E8%AF%95%E5%8D%B7.zip'
       },
       {
         key: '大物4复习重点.rar',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A94%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9.rar'
       },
       {
         key: '大物4补充练习.rar',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A93%2000-05%E6%9C%9F%E6%9C%AB%E8%AF%95%E5%8D%B7.zip'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A94%E8%A1%A5%E5%85%85%E7%BB%83%E4%B9%A0.rar'
       },
       {
         key: '大物4课件.rar',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A93%E8%AF%BE%E4%BB%B6.rar'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A94%E8%AF%BE%E4%BB%B6.rar'
       },
       {
         key: '大物4课后题答案.zip',
-        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A93%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.zip'
+        value: 'https://gitee.com/nksckx/daxuewuli/raw/master/%E5%A4%A7%E7%89%A94%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88.zip'
       }
       ]
     }
